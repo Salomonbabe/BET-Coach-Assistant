@@ -9,3 +9,5 @@ function renderLogin() {
     <button onclick="signup()">Créer un compte</button>
   `;
 }
+window.renderDashboard = renderDashboard;
+window.renderLogin = renderLogin;
